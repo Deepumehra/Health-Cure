@@ -1,35 +1,32 @@
-# 🩺 Health Cure Project  
+# 🩺 Health Cure Project
 
-A machine learning and deep learning–based project for **health condition prediction and diagnosis** using multiple models including **Logistic Regression, Support Vector Machines (SVMs), and Convolutional Neural Networks (CNNs)**.  
-
-This project demonstrates how different algorithms perform on healthcare data, ranging from structured patient records to medical images.  
-
----
-
-## 🚀 Features  
-- Preprocessing pipeline for health datasets (structured & image data).  
-- Implementation of **Logistic Regression, SVM, and CNN models**.  
-- Comparative performance analysis across models.  
-- Evaluation with metrics like Accuracy, Precision, Recall, F1-score, and ROC-AUC.  
-- Scalable framework for future healthcare AI tasks.  
+Health Cure is a machine learning project that predicts health-related outcomes using multiple models such as **Logistic Regression**, **Support Vector Machines (SVMs)**, and **Convolutional Neural Networks (CNNs)**.  
+It aims to provide insights into medical datasets and support healthcare decision-making with AI-driven predictions.
 
 ---
 
-## 📂 Project Structure  
-Health-Cure-Project/
-│── data/ # Dataset (CSV files, medical images, etc.)
-│── notebooks/ # Jupyter notebooks for experiments
-│── models/ # Trained model files (LogReg, SVM, CNN)
-│── src/ # Source code
-│ ├── preprocessing.py # Data cleaning & preprocessing
-│ ├── logistic_reg.py # Logistic Regression implementation
-│ ├── svm_model.py # SVM implementation
-│ ├── cnn_model.py # CNN architecture & training
-│ └── evaluate.py # Metrics & evaluation functions
-│── results/ # Model comparison reports & graphs
-│── README.md # Project documentation
-│── requirements.txt # Dependencies
+## 🚀 Features
+- Implementation of multiple ML algorithms:
+  - Logistic Regression
+  - Support Vector Machines (SVMs)
+  - Convolutional Neural Networks (CNNs)
+- Preprocessing of medical datasets (cleaning, scaling, encoding)
+- Model training and evaluation with metrics like accuracy, precision, recall, and F1-score
+- Visualization of performance (confusion matrix, ROC curves, etc.)
+- Modular Python codebase for easy experimentation
 
+---
+
+## 🛠️ Tech Stack
+- **Programming Language**: Python 🐍
+- **Libraries & Tools**:
+  - NumPy, Pandas (data processing)
+  - Scikit-learn (Logistic Regression, SVM)
+  - TensorFlow / Keras (CNN implementation)
+  - Matplotlib, Seaborn (visualization)
+  - Jupyter Notebook (experiments)
+
+---
 ## 🔧 Installation & Setup  
 
 1. Clone the repository:  
